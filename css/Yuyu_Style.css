@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+body {
+    background: url(../image/bg.jpg);
+    font-family: 'Open Sans';
+    
+}
+
+#MiddlePage {
+    /* 中間畫面 */
+    width: 1200px;
+    /* background-color: lawngreen; */
+    margin: auto;
+    padding: 20px 0px;
+    
+}
+
+#Menu {
+    /* 目錄 */
+    width: 800px;
+    text-align: center;
+    border-bottom: 1px black solid;
+    margin: auto;
+}
+
+#MiddlePage_BG {
+    background: url(../image/chara03.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+#spID {
+    /* 上方藍色區塊 */
+    margin-top: 30px;
+    width: 1200px;
+    height: 60px;
+    background: url(../image/sp_bg.jpg);
+    display: flex;
+}
+
+#NPK {
+    /* 新作情報 */
+    /* background-color: blue; */
+    width: 280px;
+    display: block;
+    margin: auto;
+}
+
+#NPK:hover {
+    filter: saturate(3);
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+#TItleImage {
+    /* 主視覺 */
+    width: 1200px;
+    height: 750px;
+    background: url(../image/Title_Image.jpg);
+}
+
+#yuyuLogo {
+    /* 幽遊白書LOGO */
+    margin: 30px 30px;
+}
+
+#M_1 {
+    /* 跑馬燈1 */
+    width: 300px;
+    background-color: transparent;
+    border: 3px #414057 solid;
+    border-radius: 20px;
+    padding: 3px;
+    text-align: center;
+    color: #414057;
+    font-weight: bolder;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+#M_1:hover {
+    background-color: #414057;
+    color: white;
+    cursor: pointer;
+}
+
+#M_2 {
+    /* 跑馬燈2 */
+    width: 900px;
+    background-color: #414057;
+    border: 3px #414057 solid;
+    border-radius: 20px;
+    padding: 3px;
+    color: #ffffff;
+    font-weight: bolder;
+    margin: auto;
+    font-size: 13px;
+    position: relative;
+}
+
+#AniBlock {
+ 
+    transform-origin: right;
+    transform: 1s width ease 0s;
+    top: 0px;
+    position: absolute;
+    background-color: brown;
+    height: 100%;
+    right: 15px;
+    width: 830px;
+    animation-name:oxxo;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    background-color:#414057  ;
+}
+
+@keyframes oxxo{
+    from{
+        transform: scaleX(1);
+    }
+    to{
+        transform: scaleX(0);
+    }
+}
+
+#M_2 span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: wheat;
+}
+
+#Marquee {
+    /* 跑馬燈區塊div */
+    padding: 25px;
+}
+
+.ContentClass {
+    /* 中間內容區塊(各自) */
+    padding: 80px 0px;
+    text-align: center;
+}
+
+#Anniversary {
+    width: 900px;
+    background-color: rgb(206, 206, 191, 0.2);
+    padding: 30px;
+    display: flex;
+    margin: auto;
+}
+
+#Anniversary_img {
+    width: 200px;
+    margin: auto;
+}
+
+#Anniversary_text {
+    line-height: 30px;
+    font-size: 14px;
+    display: block;
+    width: 650px;
+    text-align: left;
+}
+
+#Message, #Message02{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+.Mseeage_Section {
+    /* 最新資訊框(各自) */
+    width: 590px;
+    margin: auto;
+    background-color: #87cfda;
+    font-weight: bolder;
+}
+
+.Mseeage_Section:hover {
+    background-color: #349aa9;
+    color: white;
+    cursor: pointer;
+}
+
+.Content_Hr {
+    margin: 20px 0px 50px 0px;
+}
+
+.FontSize12 {
+    font-size: 12px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.Message_Content {
+    padding: 0px 15px;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+span>hr {
+    margin: 0px;
+    border: .5px rgb(151, 151, 151) solid;
+}
+
+#A {
+    height: 800px;
+}
+
+h1 {
+    font-family: Sawarabi Mincho;
+}
+
+td>span:hover {
+    border-bottom: 3px gray solid;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
